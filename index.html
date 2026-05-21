@@ -3,73 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دعوة من القلب</title>
+    <title>دعوة الأبطال</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-            color: #ffffff;
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            align-items: center;
+            font-family: sans-serif;
+            background-image: url('me2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             height: 100vh;
             margin: 0;
-            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
         }
 
-        .card {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-            border: 1px solid rgba(255, 255, 255, 0.18);
-            max-width: 90%;
-            animation: fadeIn 1.5s ease-in-out;
+        .text-box {
+            background: rgba(0, 0, 0, 0.75); 
+            padding: 30px;
+            border-radius: 10px;
+            color: #ffffff;
+            text-shadow: 1px 1px 2px #000;
         }
 
         h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-        }
-
-        .highlight {
-            color: #00ffcc;
+            font-size: 2.2rem;
+            margin: 0;
             font-weight: bold;
-            display: inline-block;
-            animation: pulse 2s infinite;
-        }
-
-        .percentage {
-            color: #ff007f;
-            font-size: 3rem;
-            font-weight: 900;
-            display: block;
-            margin-top: 15px;
-            text-shadow: 0 0 10px rgba(255, 0, 127, 0.5);
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
         }
     </style>
 </head>
 <body>
 
-    <div class="card">
-        <h1>يا رب <span class="highlight">الهنداوي</span> و <span class="highlight">سلكاوي</span></h1>
-        <h1>يجيبوا أعلى من</h1>
-        <span class="percentage">+90%</span>
+    <div class="text-box">
+        <h1>يارب الهنداوي والسلكاوي يجيبو 95%</h1>
     </div>
 
 </body>
